@@ -1,8 +1,8 @@
-import { getLatestRelease, parseOS, formatBytes, formatDate, type GitHubRelease } from '@/lib/github'
+import { getLatestRelease, parseOS, formatBytes, formatDate, type GitHubAsset } from '@/lib/github'
 
 export const revalidate = 3600 // Revalidate every hour
 
-function DownloadCard({ asset, index }: { asset: { name: string; browser_download_url: string; size: number; download_count: number }; index: number }) {
+function DownloadCard({ asset, index }: { asset: GitHubAsset; index: number }) {
   const { os, arch, icon } = parseOS(asset.name)
 
   return (
@@ -42,7 +42,7 @@ function DownloadCard({ asset, index }: { asset: { name: string; browser_downloa
   )
 }
 
-function OSGroup({ title, assets }: { title: string; assets: { name: string; browser_download_url: string; size: number; download_count: number }[] }) {
+function OSGroup({ title, assets }: { title: string; assets: GitHubAsset[] }) {
   if (assets.length === 0) return null
 
   return (
@@ -61,7 +61,7 @@ export default async function Home() {
   const release = await getLatestRelease()
 
   // Group assets by OS
-  const groupedAssets: Record<string, typeof release.assets> = {
+  const groupedAssets: Record<string, GitHubAsset[]> = {
     macOS: [],
     Linux: [],
     Windows: [],
