@@ -48,10 +48,8 @@ jobs:
       deployments: write
     steps:
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_Token }}
-          accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: matrindex-website
-          directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: |
+            pages deploy ./dist --project-name=matrindex-site --branch=main
