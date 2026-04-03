@@ -1,0 +1,162 @@
+- generic [ref=e2]:
+  - progressbar
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: /download/mac-os#main
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "ngrok home" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: ngrok home
+        - img [ref=e8]
+      - generic [ref=e10]:
+        - button "Product" [ref=e11] [cursor=pointer]:
+          - text: Product
+          - img [ref=e12]
+        - button "Problems We Solve" [ref=e14] [cursor=pointer]:
+          - text: Problems We Solve
+          - img [ref=e15]
+        - button "Resources" [ref=e17] [cursor=pointer]:
+          - text: Resources
+          - img [ref=e18]
+        - link "Docs" [ref=e20] [cursor=pointer]:
+          - /url: https://ngrok.com/docs/start
+        - link "Blog" [ref=e21] [cursor=pointer]:
+          - /url: /blog
+        - link "Pricing" [ref=e22] [cursor=pointer]:
+          - /url: /pricing
+        - link "Download" [ref=e23] [cursor=pointer]:
+          - /url: /download
+      - generic [ref=e24]:
+        - link "Log in" [ref=e25] [cursor=pointer]:
+          - /url: https://dashboard.ngrok.com/login
+        - link "Sign up" [ref=e26] [cursor=pointer]:
+          - /url: https://dashboard.ngrok.com/signup
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic:
+        - img
+        - img
+      - heading "Download ngrok" [level=1] [ref=e29]
+      - paragraph [ref=e30]: ngrok is your app’s front door—and the fastest way to put anything on the internet.
+    - generic [ref=e31]:
+      - navigation [ref=e32]:
+        - list [ref=e33]:
+          - listitem [ref=e34]: Agents
+          - listitem [ref=e35]:
+            - list [ref=e36]:
+              - listitem [ref=e37]:
+                - link "macOS" [ref=e38] [cursor=pointer]:
+                  - /url: /download/mac-os
+                  - img [ref=e39]
+                  - text: macOS
+              - listitem [ref=e41]:
+                - link "Windows" [ref=e42] [cursor=pointer]:
+                  - /url: /download/windows
+                  - img [ref=e43]
+                  - text: Windows
+              - listitem [ref=e48]:
+                - link "Linux" [ref=e49] [cursor=pointer]:
+                  - /url: /download/linux
+                  - img [ref=e50]
+                  - text: Linux
+              - listitem [ref=e52]:
+                - link "FreeBSD" [ref=e53] [cursor=pointer]:
+                  - /url: /download/free-bsd
+                  - img [ref=e54]
+                  - text: FreeBSD
+              - listitem [ref=e56]:
+                - link "Docker" [ref=e57] [cursor=pointer]:
+                  - /url: /download/docker
+                  - img [ref=e58]
+                  - text: Docker
+              - listitem [ref=e61]:
+                - link "Docker Desktop" [ref=e62] [cursor=pointer]:
+                  - /url: /download/docker-desktop
+                  - img [ref=e63]
+                  - text: Docker Desktop
+              - listitem [ref=e66]:
+                - link "Raspberry Pi" [ref=e67] [cursor=pointer]:
+                  - /url: /download/raspberry-pi
+                  - img [ref=e68]
+                  - text: Raspberry Pi
+          - listitem [ref=e70]: SDKS
+          - listitem [ref=e71]:
+            - list [ref=e72]:
+              - listitem [ref=e73]:
+                - link "Golang Go" [ref=e74] [cursor=pointer]:
+                  - /url: /download/go
+                  - generic [ref=e75]: Golang
+                  - img [ref=e76]
+                  - text: Go
+              - listitem [ref=e78]:
+                - link "Node.js" [ref=e79] [cursor=pointer]:
+                  - /url: /download/node-js
+                  - img [ref=e80]
+                  - text: Node.js
+              - listitem [ref=e82]:
+                - link "Rust" [ref=e83] [cursor=pointer]:
+                  - /url: /download/rust
+                  - img [ref=e84]
+                  - text: Rust
+              - listitem [ref=e86]:
+                - link "Python" [ref=e87] [cursor=pointer]:
+                  - /url: /download/python
+                  - img [ref=e88]
+                  - text: Python
+              - listitem [ref=e91]:
+                - link "Java" [ref=e92] [cursor=pointer]:
+                  - /url: /download/java
+                  - img [ref=e93]
+                  - text: Java
+          - listitem [ref=e96]: Infrastructure
+          - listitem [ref=e97]:
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "Kubernetes" [ref=e100] [cursor=pointer]:
+                  - /url: /download/kubernetes
+                  - img [ref=e101]
+                  - text: Kubernetes
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - img [ref=e111]
+          - generic [ref=e113]:
+            - generic [ref=e114]: Agent
+            - heading "macOS" [level=2] [ref=e115]
+        - heading "Installation" [level=3] [ref=e116]
+        - generic [ref=e117]:
+          - tablist [ref=e118]:
+            - tab "Homebrew" [selected] [ref=e119] [cursor=pointer]: Homebrew
+            - tab "Download" [ref=e121] [cursor=pointer]: Download
+          - tabpanel "Homebrew" [ref=e123]:
+            - generic [ref=e124]:
+              - paragraph [ref=e125]: "Install ngrok via Homebrew with the following command:"
+              - generic [ref=e127]:
+                - button "Copy code" [ref=e128] [cursor=pointer]:
+                  - generic [ref=e129]: Copy code
+                  - img [ref=e130]
+                - code [ref=e133]: brew install ngrok
+        - heading "Configure and run" [level=3] [ref=e134]
+        - paragraph [ref=e135]: "Add your authtoken:"
+        - paragraph [ref=e136]:
+          - text: Don’t have an authtoken?
+          - link "Sign up" [ref=e137] [cursor=pointer]:
+            - /url: https://dashboard.ngrok.com/signup?ref=downloads
+          - text: for a free account.
+        - generic [ref=e139]:
+          - button "Copy code" [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: Copy code
+            - img [ref=e142]
+          - code [ref=e145]: ngrok config add-authtoken <token>
+        - paragraph [ref=e146]: "Start an endpoint:"
+        - generic [ref=e148]:
+          - button "Copy code" [ref=e149] [cursor=pointer]:
+            - generic [ref=e150]: Copy code
+            - img [ref=e151]
+          - code [ref=e154]: ngrok http 80
+        - paragraph [ref=e155]: Congratulations, you have an endpoint online!
+        - paragraph [ref=e156]:
+          - img [ref=e157]
+          - text: You can run ngrok as a
+          - link "background service" [ref=e159] [cursor=pointer]:
+            - /url: https://ngrok.com/docs/agent/#background-service
+          - text: on macOS.

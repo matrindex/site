@@ -1,0 +1,794 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - progressbar
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: /#main
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "ngrok home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e7]: ngrok home
+          - img [ref=e8]
+        - generic [ref=e10]:
+          - button "Product" [ref=e11] [cursor=pointer]:
+            - text: Product
+            - img [ref=e12]
+          - button "Problems We Solve" [ref=e14] [cursor=pointer]:
+            - text: Problems We Solve
+            - img [ref=e15]
+          - button "Resources" [ref=e17] [cursor=pointer]:
+            - text: Resources
+            - img [ref=e18]
+          - link "Docs" [ref=e20] [cursor=pointer]:
+            - /url: https://ngrok.com/docs/start
+          - link "Blog" [ref=e21] [cursor=pointer]:
+            - /url: /blog
+          - link "Pricing" [ref=e22] [cursor=pointer]:
+            - /url: /pricing
+          - link "Download" [ref=e23] [cursor=pointer]:
+            - /url: /download
+        - generic [ref=e24]:
+          - link "Log in" [ref=e25] [cursor=pointer]:
+            - /url: https://dashboard.ngrok.com/login
+          - link "Sign up" [ref=e26] [cursor=pointer]:
+            - /url: https://dashboard.ngrok.com/signup
+    - main [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - generic:
+            - img
+            - img
+          - generic [ref=e31]:
+            - link "New Introducing AI Gateway" [ref=e32] [cursor=pointer]:
+              - /url: https://ngrok.ai/?__hstc=83945990.ffbc06c71e0ae2472bb69ae315a9e3ad.1775186113426.1775186113426.1775186113426.1&__hssc=83945990.1.1775186113426&__hsfp=b2760d9de3cb85aa6c3232f3c66d77f2
+              - generic [ref=e33]: New
+              - generic [ref=e34]: Introducing AI Gateway
+              - img [ref=e35]
+            - heading "All your traffic. One gateway." [level=1] [ref=e37]:
+              - text: All your traffic.
+              - text: One gateway.
+            - paragraph [ref=e38]: ngrok is an all-in-one cloud networking platform that secures, transforms, and routes your traffic to services running anywhere.
+            - generic [ref=e39]:
+              - img [ref=e40]
+              - link "Get started (for free)" [ref=e41] [cursor=pointer]:
+                - /url: https://dashboard.ngrok.com/signup
+              - link "Read the docs" [ref=e42] [cursor=pointer]:
+                - /url: https://ngrok.com/docs/start
+        - generic [ref=e44]:
+          - heading "Trusted by teams across the globe" [level=2] [ref=e45]
+          - region "Partner logos" [ref=e47]:
+            - generic [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - img "Calendly"
+                - listitem [ref=e51]:
+                  - img "Cyera"
+                - listitem [ref=e52]:
+                  - img "Databricks"
+                - listitem [ref=e53]:
+                  - img "GitHub"
+                - listitem [ref=e54]:
+                  - img "Grafana"
+                - listitem [ref=e55]:
+                  - img "Harvey"
+                - listitem [ref=e56]:
+                  - img "Hugging Face"
+                - listitem [ref=e57]:
+                  - img "Mercor"
+                - listitem [ref=e58]:
+                  - img "Microsoft"
+                - listitem [ref=e59]:
+                  - img "Okta"
+                - listitem [ref=e60]:
+                  - img "Open AI"
+                - listitem [ref=e61]:
+                  - img "Perplexity"
+                - listitem [ref=e62]:
+                  - img "Ramp"
+                - listitem [ref=e63]:
+                  - img "Schneider Electric"
+                - listitem [ref=e64]:
+                  - img "Twilio"
+                - listitem [ref=e65]:
+                  - img "Vercel"
+                - listitem [ref=e66]:
+                  - img "Windsurf"
+                - listitem [ref=e67]:
+                  - img "Zoom"
+              - list [ref=e68]:
+                - listitem [ref=e69]:
+                  - img
+                - listitem [ref=e70]:
+                  - img
+                - listitem [ref=e71]:
+                  - img
+                - listitem [ref=e72]:
+                  - img
+                - listitem [ref=e73]:
+                  - img
+                - listitem [ref=e74]:
+                  - img
+                - listitem [ref=e75]:
+                  - img
+                - listitem [ref=e76]:
+                  - img
+                - listitem [ref=e77]:
+                  - img
+                - listitem [ref=e78]:
+                  - img
+                - listitem [ref=e79]:
+                  - img
+                - listitem [ref=e80]:
+                  - img
+                - listitem [ref=e81]:
+                  - img
+                - listitem [ref=e82]:
+                  - img
+                - listitem [ref=e83]:
+                  - img
+                - listitem [ref=e84]:
+                  - img
+                - listitem [ref=e85]:
+                  - img
+                - listitem [ref=e86]:
+                  - img
+        - generic [ref=e88]:
+          - img "Decoration" [ref=e89]
+          - generic [ref=e91]:
+            - heading "Try ngrok by sharing a local app. Right now." [level=3] [ref=e92]:
+              - text: Try ngrok by sharing a local app.
+              - text: Right now.
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - tablist "Operating system" [ref=e95]:
+                  - tab "macOS" [selected] [ref=e96] [cursor=pointer]:
+                    - img [ref=e97]
+                  - tab "Windows" [ref=e99] [cursor=pointer]:
+                    - img [ref=e100]
+                  - tab "Docker" [ref=e105] [cursor=pointer]:
+                    - img [ref=e106]
+                - button "Choose another platform" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e110]: Choose another platform
+                  - img [ref=e111]
+              - tabpanel "macOS" [ref=e113]:
+                - code [ref=e114]: $ brew install ngrok
+                - button "Copy to clipboard" [ref=e115] [cursor=pointer]:
+                  - img [ref=e116]
+            - link "Download and setup instructions" [ref=e118] [cursor=pointer]:
+              - /url: /download
+              - text: Download and setup instructions
+              - img [ref=e119]
+          - img "Decoration" [ref=e121]
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - heading "From localhost to live in prod." [level=2] [ref=e127]:
+              - text: From
+              - generic [ref=e128]: localhost
+              - text: to live in prod.
+            - paragraph [ref=e129]: Instead of a hodgepodge of nginx, NLBs, VPNs, model routers, and Cloudflare, solve every networking problem with one gateway.
+          - generic [ref=e130]:
+            - link "Share localhost Put your local app on a public URL" [ref=e131] [cursor=pointer]:
+              - /url: /use-cases/share-localhost
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Share localhost
+                  - img [ref=e135]
+                - heading "Put your local app on a public URL" [level=3] [ref=e137]
+            - link "API Gateway Deliver and secure APIs" [ref=e140] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/guides/api-gateway/get-started
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]: API Gateway
+                  - img [ref=e144]
+                - heading "Deliver and secure APIs" [level=3] [ref=e146]
+            - link "AI Gateway Route, secure, and transform traffic to any AI model Sign up on ngrok.ai" [ref=e149] [cursor=pointer]:
+              - /url: https://ngrok.ai/?__hstc=83945990.ffbc06c71e0ae2472bb69ae315a9e3ad.1775186113426.1775186113426.1775186113426.1&__hssc=83945990.1.1775186113426&__hsfp=b2760d9de3cb85aa6c3232f3c66d77f2
+              - generic:
+                - generic: AI Gateway
+                - heading "Route, secure, and transform traffic to any AI model" [level=3]
+                - generic:
+                  - text: Sign up on ngrok.ai
+                  - img
+            - link "Device Gateway Control devices in the field" [ref=e151] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/guides/device-gateway/agent
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Device Gateway
+                  - img [ref=e155]
+                - heading "Control devices in the field" [level=3] [ref=e157]
+            - link "Site-to-Site Connectivity Connect to APIs and DBs in customer networks" [ref=e160] [cursor=pointer]:
+              - /url: /use-cases/site-to-site-connectivity
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]: Site-to-Site Connectivity
+                  - img [ref=e164]
+                - heading "Connect to APIs and DBs in customer networks" [level=3] [ref=e166]
+          - heading "You may also need to…" [level=3] [ref=e169]
+          - generic [ref=e170]:
+            - link "Handle webhooks for production services" [ref=e171] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/examples/webhook-gateway
+              - generic [ref=e172]:
+                - img [ref=e173]
+                - img [ref=e175]
+              - paragraph [ref=e177]: Handle webhooks for production services
+            - link "Assign secure URLs to previews and CI tests" [ref=e178] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/examples/ephemeral-workloads
+              - generic [ref=e179]:
+                - img [ref=e180]
+                - img [ref=e182]
+              - paragraph [ref=e184]: Assign secure URLs to previews and CI tests
+            - link "SSH and RDP into devices in the field" [ref=e185] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/guides/ssh-rdp
+              - generic [ref=e186]:
+                - img [ref=e187]
+                - img [ref=e189]
+              - paragraph [ref=e191]: SSH and RDP into devices in the field
+            - link "Access remote K8s clusters from dev" [ref=e192] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/k8s/guides/local-projection
+              - generic [ref=e193]:
+                - img [ref=e194]
+                - img [ref=e197]
+              - paragraph [ref=e199]: Access remote K8s clusters from dev
+            - link "Connect your local MCP server to ChatGPT and Claude" [ref=e200] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/using-ngrok-with/using-mcp
+              - generic [ref=e201]:
+                - img [ref=e202]
+                - img [ref=e204]
+              - paragraph [ref=e206]: Connect your local MCP server to ChatGPT and Claude
+            - link "Replay HTTP requests to debug webhooks faster" [ref=e207] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/obs/traffic-inspection#replay
+              - generic [ref=e208]:
+                - img [ref=e209]
+                - img [ref=e211]
+              - paragraph [ref=e213]: Replay HTTP requests to debug webhooks faster
+          - link "More problems we solve" [ref=e214] [cursor=pointer]:
+            - /url: https://ngrok.com/docs/universal-gateway/examples
+            - text: More problems we solve
+            - img [ref=e215]
+        - generic [ref=e218]:
+          - img "Decoration" [ref=e219]
+          - generic [ref=e221]:
+            - heading "Okay, but how does it work?" [level=2] [ref=e222]
+            - paragraph [ref=e223]: Connect anything with Endpoints, Traffic Policy, and Secure Tunnels.
+          - img "Decoration" [ref=e224]
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic:
+              - img
+              - img
+            - generic [ref=e228]:
+              - img [ref=e230]
+              - generic [ref=e232]: Endpoints & Traffic Policy
+            - heading "Route, transform, and authenticate your traffic." [level=2] [ref=e233]
+            - paragraph [ref=e234]: No more cryptic nginx configs or Lua plugins. Everything is a URL with traffic rules you attach. Compose them together and offload processing to ngrok’s cloud gateway.
+          - generic [ref=e237]: Fig. 1 – Traffic flows through Endpoints & Traffic Policy
+          - generic [ref=e240]:
+            - heading "Take action at any phase in the request lifecycle." [level=3] [ref=e241]
+            - paragraph [ref=e242]: Traffic Policy is an expressive CEL-based rules system. When a request hits different phases of its lifecycle, ngrok executes each rule sequentially.
+          - generic [ref=e243]:
+            - generic [ref=e244]: Fig. 2 – Traffic policy examples
+            - generic [ref=e245]:
+              - tablist "Traffic policy examples" [ref=e246]:
+                - tab "Route by any request property" [selected] [ref=e247] [cursor=pointer]:
+                  - img [ref=e248]
+                  - generic [ref=e250]: Route by any request property
+                - tab "Enforce OAuth in front of your apps" [ref=e251] [cursor=pointer]:
+                  - img [ref=e252]
+                  - generic [ref=e254]: Enforce OAuth in front of your apps
+                - tab "Block by IP reputation and geo" [ref=e255] [cursor=pointer]:
+                  - img [ref=e256]
+                  - generic [ref=e258]: Block by IP reputation and geo
+                - tab "Stop bad actors with rate limits, WAF" [ref=e259] [cursor=pointer]:
+                  - img [ref=e260]
+                  - generic [ref=e262]: Stop bad actors with rate limits, WAF
+              - tabpanel [ref=e264]:
+                - code [ref=e918]:
+                  - generic [ref=e919]: "on_http_request:"
+                  - generic [ref=e920]: "# send requests with the /api path prefix to the api service"
+                  - generic [ref=e921]: "- expressions:"
+                  - generic [ref=e922]: "# conditions are CEL expressions, see https://cel.dev"
+                  - generic [ref=e923]: "- req.url.path.startsWith('/api')"
+                  - generic [ref=e924]: "actions:"
+                  - generic [ref=e925]: "- type: forward-internal"
+                  - generic [ref=e926]: "config:"
+                  - generic [ref=e927]: "url: https://api.internal"
+                  - generic [ref=e928]: "# route dynamically based on a header using CEL interpolation"
+                  - generic [ref=e929]: "- actions:"
+                  - generic [ref=e930]: "- type: forward-internal"
+                  - generic [ref=e931]: "config:"
+                  - generic [ref=e932]: "url: https://${req.headers('X-Custom-Header')}.internal"
+            - link "Even more ways to control and transform your traffic Explore actions Mutual TLS OAuth + OIDC Basic Auth URL rewrite + redirects Modify headers Custom response IP restrictions Webhook verification" [ref=e269] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/traffic-policy/actions
+              - generic [ref=e270]:
+                - heading "Even more ways to control and transform your traffic" [level=3] [ref=e271]
+                - generic [ref=e272]:
+                  - text: Explore actions
+                  - img [ref=e273]
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - generic [ref=e277]:
+                    - img [ref=e278]
+                    - text: Mutual TLS
+                  - generic [ref=e280]:
+                    - img [ref=e281]
+                    - text: OAuth + OIDC
+                  - generic [ref=e283]:
+                    - img [ref=e284]
+                    - text: Basic Auth
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - text: URL rewrite + redirects
+                - generic [ref=e289]:
+                  - generic [ref=e290]:
+                    - img [ref=e291]
+                    - text: Modify headers
+                  - generic [ref=e293]:
+                    - img [ref=e294]
+                    - text: Custom response
+                  - generic [ref=e296]:
+                    - img [ref=e297]
+                    - text: IP restrictions
+                  - generic [ref=e299]:
+                    - img [ref=e300]
+                    - text: Webhook verification
+          - generic [ref=e302]:
+            - heading "Stop cobbling your infrastructure together." [level=3] [ref=e303]
+            - paragraph [ref=e304]: Security, performance, and resiliency built in by default.
+          - generic [ref=e305]:
+            - link "Load Balancing Turn one URL into a smart pool of replicas Scale automatically by starting endpoints with the same URL. They self-register for load balancing. Stop them and they’re out." [ref=e306] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/endpoint-pooling
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - img [ref=e309]
+                  - generic [ref=e311]: Load Balancing
+                - heading "Turn one URL into a smart pool of replicas" [level=4] [ref=e312]
+                - paragraph [ref=e313]: Scale automatically by starting endpoints with the same URL. They self-register for load balancing. Stop them and they’re out.
+              - img [ref=e316]
+            - link "Global Network Accelerate traffic with smart global routing We reduce latency for your end users by routing every request across our global network to the nearest healthy replica." [ref=e318] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/global-load-balancer
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - img [ref=e321]
+                  - text: Global Network
+                - heading "Accelerate traffic with smart global routing" [level=4] [ref=e323]
+                - paragraph [ref=e324]: We reduce latency for your end users by routing every request across our global network to the nearest healthy replica.
+              - img [ref=e325]
+            - link "DDoS Protection Protect origins from DDoS with no extra work ngrok automatically blocks volumetric attacks from malicious actors before any traffic reaches your network." [ref=e327] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/ddos-protection
+              - generic [ref=e328]:
+                - generic [ref=e329]:
+                  - img [ref=e330]
+                  - text: DDoS Protection
+                - heading "Protect origins from DDoS with no extra work" [level=4] [ref=e332]
+                - paragraph [ref=e333]: ngrok automatically blocks volumetric attacks from malicious actors before any traffic reaches your network.
+              - img [ref=e334]
+            - link "Any Protocol Serve HTTP, TLS, and TCP with native support If it runs over TCP, it works on ngrok. Websockets, gRPC, SSH, Postgres, MQTT, even Minecraft… you get the idea." [ref=e336] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/protocols
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - img [ref=e339]
+                  - text: Any Protocol
+                - heading "Serve HTTP, TLS, and TCP with native support" [level=4] [ref=e341]
+                - paragraph [ref=e342]: If it runs over TCP, it works on ngrok. Websockets, gRPC, SSH, Postgres, MQTT, even Minecraft… you get the idea.
+              - img [ref=e343]
+          - generic [ref=e345]:
+            - link "More about endpoints" [ref=e346] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/universal-gateway/cloud-endpoints/endpoints
+              - text: More about endpoints
+              - img [ref=e347]
+            - link "More about Traffic Policy" [ref=e349] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/traffic-policy
+              - text: More about Traffic Policy
+              - img [ref=e350]
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - generic:
+              - img
+              - img
+            - img [ref=e356]
+            - generic [ref=e358]: Secure Tunnels
+            - heading "Connect to services anywhere, no firewall changes required." [level=2] [ref=e359]
+            - paragraph [ref=e360]: Install a lightweight agent to deliver traffic to any service through a secure tunnel.
+          - generic [ref=e361]:
+            - generic [ref=e363]: Fig. 3 – Anatomy of a secure tunnel
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - img [ref=e369]
+                - text: Environment Agnostic
+              - heading "Run your services in any environment" [level=3] [ref=e371]
+              - paragraph [ref=e372]: Because your services are connected to ngrok with secure tunnels, they can be deployed anywhere. If it listens on a port and is connected to the internet, ngrok can deliver traffic to it.
+              - img "ngrok secure tunnels connecting services across cloud, on-premise, and edge environments" [ref=e373]
+            - generic [ref=e375]:
+              - generic [ref=e376]:
+                - img [ref=e377]
+                - text: Zero Open Ports
+              - heading "Close every single inbound port" [level=3] [ref=e379]
+              - paragraph [ref=e380]: Attackers can't skirt a secure tunnel to scan or attack your origin servers, which means you whittle down your surface area and remove an entire class of attack vectors.
+              - 'img "Zero open ports: ngrok secure tunnel blocking inbound port scanning and attack vectors" [ref=e381]'
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - img [ref=e385]
+                - text: Least Privileged Access
+              - heading "Precise network access, not risky customer VPNs" [level=3] [ref=e387]
+              - paragraph [ref=e388]: Drop the ngrok agent into your customers' networks and tightly scope your access to just the APIs and databases you need. Not their whole subnet.
+              - img "ngrok agent providing least-privileged API and database access to customer networks without a VPN" [ref=e389]
+            - link "Native SDKs import \"ngrok\" Don't want to package and babysit an agent sidecar? Embed secure tunnels directly into your code with a native agent SDK. ngrok agent SDK embedded natively in Python, Go, Java, and Node.js application code" [ref=e390] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/agent-sdks/index
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - img [ref=e393]
+                  - text: Native SDKs
+                - heading "import \"ngrok\"" [level=3] [ref=e395]
+                - paragraph [ref=e396]: Don't want to package and babysit an agent sidecar? Embed secure tunnels directly into your code with a native agent SDK.
+                - img "ngrok agent SDK embedded natively in Python, Go, Java, and Node.js application code" [ref=e397]
+              - img [ref=e398]
+          - link "More about secure tunnels" [ref=e400] [cursor=pointer]:
+            - /url: https://ngrok.com/docs/agent/overview
+            - text: More about secure tunnels
+            - img [ref=e401]
+        - generic [ref=e404]:
+          - generic [ref=e405]:
+            - generic:
+              - img
+              - img
+            - generic [ref=e406]:
+              - img [ref=e408]
+              - generic [ref=e410]: Sweatin' the small stuff
+            - heading "Developer experience matters." [level=2] [ref=e411]
+          - generic [ref=e412]:
+            - link "Traffic Inspector Inspect every detail of your traffic Watch the flow in real time, then dig into the headers, body, latency, response, and more for every request. ngrok Traffic Inspector UI showing real-time HTTP request headers, body, latency, and response details" [ref=e413] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/obs/traffic-inspection
+              - generic [ref=e414]:
+                - generic [ref=e415]:
+                  - img [ref=e416]
+                  - text: Traffic Inspector
+                - heading "Inspect every detail of your traffic" [level=3] [ref=e418]
+                - paragraph [ref=e419]: Watch the flow in real time, then dig into the headers, body, latency, response, and more for every request.
+                - img "ngrok Traffic Inspector UI showing real-time HTTP request headers, body, latency, and response details" [ref=e420]
+              - img [ref=e421]
+            - link "Log Export Send traffic logs to your favorite obs platform Export structured logs to Datadog, Cloudwatch, and Azure Monitor to combine with your existing telemetry. ngrok structured traffic log export flowing to Datadog, CloudWatch, and Azure Monitor" [ref=e423] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/obs/events
+              - generic [ref=e424]:
+                - generic [ref=e425]:
+                  - img [ref=e426]
+                  - text: Log Export
+                - heading "Send traffic logs to your favorite obs platform" [level=3] [ref=e428]
+                - paragraph [ref=e429]: Export structured logs to Datadog, Cloudwatch, and Azure Monitor to combine with your existing telemetry.
+                - img "ngrok structured traffic log export flowing to Datadog, CloudWatch, and Azure Monitor" [ref=e430]
+              - img [ref=e431]
+            - link "Kubernetes Operator Use your existing Kubernetes manifests The ngrok Operator slurps up standardized Ingress and Gateway API resources, then transforms them into endpoints and policies that run on our cloud service and deliver traffic to your pods. ngrok Kubernetes Operator transforming Ingress and Gateway API manifests into cloud-delivered endpoints" [ref=e433] [cursor=pointer]:
+              - /url: https://ngrok.com/docs/k8s
+              - generic [ref=e434]:
+                - generic [ref=e435]:
+                  - img [ref=e436]
+                  - text: Kubernetes Operator
+                - heading "Use your existing Kubernetes manifests" [level=3] [ref=e438]
+                - paragraph [ref=e439]: The ngrok Operator slurps up standardized Ingress and Gateway API resources, then transforms them into endpoints and policies that run on our cloud service and deliver traffic to your pods.
+                - img "ngrok Kubernetes Operator transforming Ingress and Gateway API manifests into cloud-delivered endpoints" [ref=e440]
+              - img [ref=e441]
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - img [ref=e445]
+                - text: APIs & Integrations
+              - heading "Fully programmable" [level=3] [ref=e447]
+              - paragraph [ref=e448]: We integrated ngrok into the dev tools you love. There's an API for every feature to quicky build your own integrations, too. And make them production-ready, declarative, IaC... you get the idea.
+              - generic [ref=e449]:
+                - link "Multi-platform CLI" [ref=e450] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/agent
+                  - img [ref=e451]
+                  - text: Multi-platform CLI
+                  - img [ref=e453]
+                - link "Agent SDKs" [ref=e455] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/agent-sdks
+                  - img [ref=e456]
+                  - text: Agent SDKs
+                  - img [ref=e458]
+                - link "Docker Desktop app" [ref=e460] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/using-ngrok-with/docker/desktop
+                  - img [ref=e461]
+                  - text: Docker Desktop app
+                  - img [ref=e464]
+                - link "API client libraries" [ref=e466] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/api/index#client-libraries
+                  - img [ref=e467]
+                  - text: API client libraries
+                  - img [ref=e469]
+                - link "Docker images" [ref=e471] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/using-ngrok-with/docker/index
+                  - img [ref=e472]
+                  - text: Docker images
+                  - img [ref=e475]
+                - link "Terraform provider" [ref=e477] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/api#terraform-provider
+                  - img [ref=e478]
+                  - text: Terraform provider
+                  - img [ref=e481]
+                - link "Kubernetes Operator" [ref=e483] [cursor=pointer]:
+                  - /url: https://ngrok.com/docs/k8s
+                  - img [ref=e484]
+                  - text: Kubernetes Operator
+                  - img [ref=e487]
+            - link "Compliance & Security All the boxes you need to check Trust Center SOC2 Type II HIPAA & BAA GDPR CCPA EU-US DPF RBAC SSO & SCIM Audit logs Data residency White-labeling" [ref=e489] [cursor=pointer]:
+              - /url: https://trust.ngrok.com/
+              - generic [ref=e490]:
+                - generic [ref=e491]:
+                  - img [ref=e492]
+                  - generic [ref=e494]: Compliance & Security
+                - heading "All the boxes you need to check" [level=4] [ref=e495]
+                - generic [ref=e496]:
+                  - generic [ref=e497]: Trust Center
+                  - img [ref=e498]
+              - generic [ref=e500]:
+                - generic [ref=e501]:
+                  - img [ref=e502]
+                  - text: SOC2 Type II
+                - generic [ref=e505]:
+                  - img [ref=e506]
+                  - text: HIPAA & BAA
+                - generic [ref=e509]:
+                  - img [ref=e510]
+                  - text: GDPR
+                - generic [ref=e513]:
+                  - img [ref=e514]
+                  - text: CCPA
+                - generic [ref=e517]:
+                  - img [ref=e518]
+                  - text: EU-US DPF
+                - generic [ref=e521]:
+                  - img [ref=e522]
+                  - text: RBAC
+                - generic [ref=e525]:
+                  - img [ref=e526]
+                  - text: SSO & SCIM
+                - generic [ref=e529]:
+                  - img [ref=e530]
+                  - text: Audit logs
+                - generic [ref=e533]:
+                  - img [ref=e534]
+                  - text: Data residency
+                - generic [ref=e537]:
+                  - img [ref=e538]
+                  - text: White-labeling
+        - generic [ref=e542]:
+          - heading "Join millions of developers routing billions of requests every day." [level=2] [ref=e544]
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - generic [ref=e548]:
+                - generic [ref=e550]:
+                  - generic [ref=e551]:
+                    - generic [ref=e552]: Scott Motte
+                    - generic [ref=e553]: "@motdotla"
+                  - paragraph [ref=e554]: ngrok is so effing amazing
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: Ihor Leshko
+                    - generic [ref=e559]: Director of Engineering
+                  - paragraph [ref=e560]: ngrok opened the door for Databricks to rapidly onboard big enterprise customers with comprehensive security much less operational complexity.
+                  - img "Databricks" [ref=e561]
+                  - img
+                - generic [ref=e563]:
+                  - generic [ref=e564]:
+                    - generic [ref=e565]: Kevin Simper
+                    - generic [ref=e566]: "@kevinsimper"
+                  - paragraph [ref=e567]: I wouldn't know how to work without ngrok.
+              - generic [ref=e568]:
+                - generic [ref=e570]:
+                  - generic [ref=e571]:
+                    - generic [ref=e572]: Brian Cantrell
+                    - generic [ref=e573]: "@briancantrell"
+                  - paragraph [ref=e574]: ngrok is making my life so much better.
+                - generic [ref=e576]:
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: Kent C. Dodds
+                    - generic [ref=e579]: "@kentcdodds"
+                  - paragraph [ref=e580]: "Just got introduced to #ngrok by @geddski. This thing's amazing."
+                - generic [ref=e582]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: Lorna Mitchell
+                    - generic [ref=e585]: "@lornajane"
+                  - paragraph [ref=e586]: I have literally no idea how I solved many of these problems before I used ngrok
+              - generic [ref=e587]:
+                - generic [ref=e589]:
+                  - generic [ref=e590]:
+                    - generic [ref=e591]: Lyzi Diamond
+                    - generic [ref=e592]: "@lyzidiamond"
+                  - paragraph [ref=e593]: OMG life changer. I can't imagine how I lived without ngrok.
+                - generic [ref=e595]:
+                  - generic [ref=e596]:
+                    - generic [ref=e597]: Wesley Gorman
+                    - generic [ref=e598]: Senior Director, Engineering, Zendesk
+                  - paragraph [ref=e599]: ngrok has been super user friendly, works seamlessly, and never gets in our way. Today, our engineers spend less time troubleshooting proxy issues and more time building.
+                  - img "Zendesk" [ref=e600]
+                  - img
+                - generic [ref=e602]:
+                  - generic [ref=e603]:
+                    - generic [ref=e604]: Brian Ketelsen
+                    - generic [ref=e605]: "@bketelsen"
+                  - paragraph [ref=e606]: Just used ngrok for the first time to show off a new GopherCon web layout. Wow, that's awesome.
+              - generic [ref=e607]:
+                - generic [ref=e609]:
+                  - generic [ref=e610]:
+                    - generic [ref=e611]: Gajus
+                    - generic [ref=e612]: "@kuizinas"
+                  - paragraph [ref=e613]: Holy smokes, ngrok is incredible. This is going to change my workflow forever.
+                - generic [ref=e615]:
+                  - generic [ref=e616]:
+                    - generic [ref=e617]: georges
+                    - generic [ref=e618]: "@multiplegeorges"
+                  - paragraph [ref=e619]: ngrok is so useful that I actually enjoy paying for it.
+                - generic [ref=e621]:
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: Yehuda Katz
+                    - generic [ref=e624]: "@waborwycatz"
+                  - paragraph [ref=e625]: ngrok is one of those tools that you don't realize you need until you try it. Then it's indispensable.
+              - generic [ref=e626]:
+                - generic [ref=e628]:
+                  - generic [ref=e629]:
+                    - generic [ref=e630]: Cassidy Williams
+                    - generic [ref=e631]: "@cassidoo"
+                  - paragraph [ref=e632]: ngrok saves me so much time during development. What a tool.
+                - generic [ref=e634]:
+                  - generic [ref=e635]:
+                    - generic [ref=e636]: Austin Cottrell
+                    - generic [ref=e637]: Cloud Infrastructure Engineer
+                  - paragraph [ref=e638]: ngrok continues to wow us with great APIs and automation. Establishing secure remote connectivity with our customer's environments via REST APIs is fast and safe ... and amazing!
+                  - img "Copado" [ref=e639]
+                  - img
+                - generic [ref=e641]:
+                  - generic [ref=e642]:
+                    - generic [ref=e643]: Steve Kinney
+                    - generic [ref=e644]: "@stevekinney"
+                  - paragraph [ref=e645]: ngrok makes the hard parts of networking feel effortless.
+              - generic [ref=e646]:
+                - generic [ref=e648]:
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: Kareem
+                    - generic [ref=e651]: "@kareemsinchin"
+                  - paragraph [ref=e652]: ngrok is the api gateway goat honestly
+                - generic [ref=e654]:
+                  - generic [ref=e655]:
+                    - generic [ref=e656]: Bree Hoffman
+                    - generic [ref=e657]: "@breefield"
+                  - paragraph [ref=e658]: ngrok is genius, replaying requests makes webhooks 1M times easier to handle.
+                - generic [ref=e660]:
+                  - generic [ref=e661]:
+                    - generic [ref=e662]: Peter Vukovic
+                    - generic [ref=e663]: "@pvukovic"
+                  - paragraph [ref=e664]: "Spent 3 hours looking for a good ngrok alternative. Let me save you some time: there isn't a better ngrok alternative."
+            - generic [ref=e665]:
+              - generic [ref=e666]:
+                - generic [ref=e668]:
+                  - generic [ref=e669]:
+                    - generic [ref=e670]: Scott Motte
+                    - generic [ref=e671]: "@motdotla"
+                  - paragraph [ref=e672]: ngrok is so effing amazing
+                - generic [ref=e674]:
+                  - generic [ref=e675]:
+                    - generic [ref=e676]: Ihor Leshko
+                    - generic [ref=e677]: Director of Engineering
+                  - paragraph [ref=e678]: ngrok opened the door for Databricks to rapidly onboard big enterprise customers with comprehensive security much less operational complexity.
+                  - img [ref=e679]
+                  - img
+                - generic [ref=e681]:
+                  - generic [ref=e682]:
+                    - generic [ref=e683]: Kevin Simper
+                    - generic [ref=e684]: "@kevinsimper"
+                  - paragraph [ref=e685]: I wouldn't know how to work without ngrok.
+              - generic [ref=e686]:
+                - generic [ref=e688]:
+                  - generic [ref=e689]:
+                    - generic [ref=e690]: Brian Cantrell
+                    - generic [ref=e691]: "@briancantrell"
+                  - paragraph [ref=e692]: ngrok is making my life so much better.
+                - generic [ref=e694]:
+                  - generic [ref=e695]:
+                    - generic [ref=e696]: Kent C. Dodds
+                    - generic [ref=e697]: "@kentcdodds"
+                  - paragraph [ref=e698]: "Just got introduced to #ngrok by @geddski. This thing's amazing."
+                - generic [ref=e700]:
+                  - generic [ref=e701]:
+                    - generic [ref=e702]: Lorna Mitchell
+                    - generic [ref=e703]: "@lornajane"
+                  - paragraph [ref=e704]: I have literally no idea how I solved many of these problems before I used ngrok
+              - generic [ref=e705]:
+                - generic [ref=e707]:
+                  - generic [ref=e708]:
+                    - generic [ref=e709]: Lyzi Diamond
+                    - generic [ref=e710]: "@lyzidiamond"
+                  - paragraph [ref=e711]: OMG life changer. I can't imagine how I lived without ngrok.
+                - generic [ref=e713]:
+                  - generic [ref=e714]:
+                    - generic [ref=e715]: Wesley Gorman
+                    - generic [ref=e716]: Senior Director, Engineering, Zendesk
+                  - paragraph [ref=e717]: ngrok has been super user friendly, works seamlessly, and never gets in our way. Today, our engineers spend less time troubleshooting proxy issues and more time building.
+                  - img [ref=e718]
+                  - img
+                - generic [ref=e720]:
+                  - generic [ref=e721]:
+                    - generic [ref=e722]: Brian Ketelsen
+                    - generic [ref=e723]: "@bketelsen"
+                  - paragraph [ref=e724]: Just used ngrok for the first time to show off a new GopherCon web layout. Wow, that's awesome.
+              - generic [ref=e725]:
+                - generic [ref=e727]:
+                  - generic [ref=e728]:
+                    - generic [ref=e729]: Gajus
+                    - generic [ref=e730]: "@kuizinas"
+                  - paragraph [ref=e731]: Holy smokes, ngrok is incredible. This is going to change my workflow forever.
+                - generic [ref=e733]:
+                  - generic [ref=e734]:
+                    - generic [ref=e735]: georges
+                    - generic [ref=e736]: "@multiplegeorges"
+                  - paragraph [ref=e737]: ngrok is so useful that I actually enjoy paying for it.
+                - generic [ref=e739]:
+                  - generic [ref=e740]:
+                    - generic [ref=e741]: Yehuda Katz
+                    - generic [ref=e742]: "@waborwycatz"
+                  - paragraph [ref=e743]: ngrok is one of those tools that you don't realize you need until you try it. Then it's indispensable.
+              - generic [ref=e744]:
+                - generic [ref=e746]:
+                  - generic [ref=e747]:
+                    - generic [ref=e748]: Cassidy Williams
+                    - generic [ref=e749]: "@cassidoo"
+                  - paragraph [ref=e750]: ngrok saves me so much time during development. What a tool.
+                - generic [ref=e752]:
+                  - generic [ref=e753]:
+                    - generic [ref=e754]: Austin Cottrell
+                    - generic [ref=e755]: Cloud Infrastructure Engineer
+                  - paragraph [ref=e756]: ngrok continues to wow us with great APIs and automation. Establishing secure remote connectivity with our customer's environments via REST APIs is fast and safe ... and amazing!
+                  - img [ref=e757]
+                  - img
+                - generic [ref=e759]:
+                  - generic [ref=e760]:
+                    - generic [ref=e761]: Steve Kinney
+                    - generic [ref=e762]: "@stevekinney"
+                  - paragraph [ref=e763]: ngrok makes the hard parts of networking feel effortless.
+              - generic [ref=e764]:
+                - generic [ref=e766]:
+                  - generic [ref=e767]:
+                    - generic [ref=e768]: Kareem
+                    - generic [ref=e769]: "@kareemsinchin"
+                  - paragraph [ref=e770]: ngrok is the api gateway goat honestly
+                - generic [ref=e772]:
+                  - generic [ref=e773]:
+                    - generic [ref=e774]: Bree Hoffman
+                    - generic [ref=e775]: "@breefield"
+                  - paragraph [ref=e776]: ngrok is genius, replaying requests makes webhooks 1M times easier to handle.
+                - generic [ref=e778]:
+                  - generic [ref=e779]:
+                    - generic [ref=e780]: Peter Vukovic
+                    - generic [ref=e781]: "@pvukovic"
+                  - paragraph [ref=e782]: "Spent 3 hours looking for a good ngrok alternative. Let me save you some time: there isn't a better ngrok alternative."
+          - link "See more love" [ref=e783] [cursor=pointer]:
+            - /url: /love
+            - img [ref=e784]
+            - text: See more love
+        - generic [ref=e787]:
+          - generic [ref=e788]:
+            - heading "You're using ngrok right now." [level=2] [ref=e789]
+            - paragraph [ref=e790]: ngrok received your request on our global network, filtered it through our WAF, applied a rate limit, routed it to our services, and delivered this web page to your browser.
+          - generic [ref=e792]:
+            - generic [ref=e793]: Fig. 4 – ngrok.com's Traffic Policy
+            - code [ref=e798]: "on_http_request: # say bye to anonymous proxies - expressions: - \"'proxy.anonymous' in conn.client_ip.categories\" actions: - type: deny # rate limit requests by IP, unless you're a search/AI bot crawling the docs - expressions: - \"!('com.openai.gptbot.ipv4' in conn.client_ip.categories || 'com.google.googlebot.ipv4' in conn.client_ip.categories)\" - \"!req.url.path.startsWith('/docs')\" actions: - type: rate-limit config: algorithm: sliding_window bucket_key: - conn.client_ip capacity: 12345 enforce: false name: Limit 12345 requests per minute per ip and user agent rate: 60s # rate limit violators get their connection closed instead of 429 errors - expressions: - actions.ngrok.rate_limit.limited actions: - type: close-connection # this is our WAF, dawg - actions: - type: owasp-crs-request config: exclude_rule_ids: - 932260 on_error: continue process_body: true # log all WAF decisions in our observability platform and then deny anomalous requests - expressions: - actions.ngrok.owasp_crs_request.decision == 'deny' actions: - type: log config: metadata: action: waf deny anomaly_score: ${actions.ngrok.owasp_crs_request.anomaly_score} first_matched_data: ${actions.ngrok.owasp_crs_request.matched_rules[0].data} first_matched_id: ${actions.ngrok.owasp_crs_request.matched_rules[0].id} first_matched_message: ${actions.ngrok.owasp_crs_request.matched_rules[0].message} first_matched_severity: ${actions.ngrok.owasp_crs_request.matched_rules[0].severity} ngrok_error_message: ${actions.ngrok.owasp_crs_request.error.message} phase: request - type: deny # block countries to comply with legal requirements - expressions: - conn.geo.country_code in ['ABC', 'DEF', 'XYZ'] actions: - type: deny # \"we're hiring\" easter egg for the curious developer - actions: - type: add-headers config: headers: x-ngrok-we-are-hiring: https://ngrok.com/careers # add a custom security.txt file without storing it in s3 or something - expressions: - req.url.uri.contains('/.well-known/security.txt') actions: - type: custom-response config: content: |+ Contact: mailto:security@ngrok.com Canonical: https://ngrok.com/.well-known/security.txt Policy: https://ngrok.com/security/disclosure-and-reward-program Hiring: https://ngrok.com/careers Preferred-Languages: en Expires: 2026-11-01T00:00:00Z headers: Content-Type: text/plain; charset=utf-8 status_code: 200 # sugar URL for invites to our discord community (come say hi!) - expressions: - req.url.path.startsWith('/discord') actions: - type: redirect config: to: https://discord.com/invite/6r7rdGX9fr # redirect legacy /downloads path to /download - actions: - type: redirect config: from: https://ngrok.com/downloads(/|$)(.*) status_code: 301 to: https://ngrok.com/download/$2 # redirect legacy blog path+slug - expressions: - req.url.path.startsWith('/blog-post') actions: - type: redirect config: from: ^(https?://[^/]+)/blog-post/(.*)$ status_code: 301 to: $1/blog/$2 # handle /docs by forwarding traffic to our docs hosted in s3 - expressions: - req.url.path.startsWith('/docs') actions: - type: forward-external config: url: https://ngrok.docs-provider.com # handle /blog and asset paths by forwarding traffic to an external provider # sorry, we gotta be a little cheeky with these - expressions: - '[\"/__blog-manifest\",\"/blog-assets\",\"/blog\"].exists(p,req.url.path.startsWith(p))' actions: - type: forward-external config: url: https://blog.deployment-provider.com # handle /, /download, /pricing/, and other paths by forwarding to the same provider, different deployment - expressions: - '[\"/__manifest\",\"/assets\",\"/download\",\"/pricing\",\"/schemas\"].exists(p,req.url.path.startsWith(p))' actions: - type: forward-external config: url: https://frontend.deployment-provider.com # legacy website paths forward to cms - actions: - type: url-rewrite config: from: /(.+)/$ to: /$1 - type: forward-external config: url: https://ngrok.cms-provider.com on_http_response: # run waf on all responses - actions: - type: owasp-crs-response config: on_error: continue process_body: true # as before, log all those WAF decisions and deny responses - expressions: - actions.ngrok.owasp_crs_response.decision == 'deny' actions: - type: log config: metadata: action: waf deny anomaly_score: ${actions.ngrok.owasp_crs_response.anomaly_score} first_matched_data: ${actions.ngrok.owasp_crs_response.matched_rules[0].data} first_matched_id: ${actions.ngrok.owasp_crs_response.matched_rules[0].id} first_matched_message: ${actions.ngrok.owasp_crs_response.matched_rules[0].message} first_matched_severity: ${actions.ngrok.owasp_crs_response.matched_rules[0].severity} ngrok_error_message: ${actions.ngrok.owasp_crs_response.error.message} phase: response - type: custom-response config: content: 403 Forbidden headers: Content-Type: text/plain; charset=utf-8 status_code: 403"
+            - button "See More" [ref=e799] [cursor=pointer]
+        - generic [ref=e800]:
+          - generic:
+            - img
+            - img
+          - generic [ref=e801]:
+            - img "Decoration" [ref=e802]
+            - generic [ref=e804]:
+              - generic [ref=e805]:
+                - heading "You read the whole page. What are you waiting for?" [level=3] [ref=e806]
+                - paragraph [ref=e807]: No upfront costs. No contact sales. Pay only for what you use.
+              - generic [ref=e808]:
+                - img [ref=e809]
+                - link "Start Building" [ref=e810] [cursor=pointer]:
+                  - /url: https://dashboard.ngrok.com/signup
+                - link "See pricing" [ref=e811] [cursor=pointer]:
+                  - /url: /pricing
+                  - generic [ref=e812]: See pricing
+            - img "Decoration" [ref=e813]
+  - iframe [ref=e933]:
+    - button "帮助" [ref=f5e4] [cursor=pointer]:
+      - img [ref=f5e6]
+      - generic [ref=f5e13]: 帮助

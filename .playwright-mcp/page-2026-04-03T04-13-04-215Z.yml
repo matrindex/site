@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+        - heading "所有版本" [level=1] [ref=e9]
+      - paragraph [ref=e10]: 浏览 Matrindex 的所有发布版本，选择适合您的版本下载。
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "最新开发版本" [level=2] [ref=e14]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - heading "v1.0.0-beta.66-build.94" [level=3] [ref=e18]
+            - generic [ref=e19]: (Build 94)
+            - generic [ref=e20]: Beta 66-build
+            - generic [ref=e21]: 2026年4月2日
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - heading "Windows" [level=4] [ref=e25]
+              - generic [ref=e26]:
+                - link "amd64 63.84 MB" [ref=e27] [cursor=pointer]:
+                  - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-darwin-x64
+                  - generic [ref=e28]: amd64
+                  - generic [ref=e29]: 63.84 MB
+                - link "amd64 110.85 MB" [ref=e30] [cursor=pointer]:
+                  - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-windows-x64.exe
+                  - generic [ref=e31]: amd64
+                  - generic [ref=e32]: 110.85 MB
+                - link "arm64 59.01 MB" [ref=e33] [cursor=pointer]:
+                  - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-darwin-arm64
+                  - generic [ref=e34]: arm64
+                  - generic [ref=e35]: 59.01 MB
+                - link "arm64 107.63 MB" [ref=e36] [cursor=pointer]:
+                  - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-windows-arm64.exe
+                  - generic [ref=e37]: arm64
+                  - generic [ref=e38]: 107.63 MB
+            - generic [ref=e39]:
+              - heading "Linux" [level=4] [ref=e40]
+              - generic [ref=e41]:
+                - link "amd64 95.47 MB" [ref=e42] [cursor=pointer]:
+                  - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-linux-x64
+                  - generic [ref=e43]: amd64
+                  - generic [ref=e44]: 95.47 MB
+                - link "arm64 94.94 MB" [ref=e45] [cursor=pointer]:
+                  - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-linux-arm64
+                  - generic [ref=e46]: arm64
+                  - generic [ref=e47]: 94.94 MB
+      - generic [ref=e48]:
+        - heading "历史版本" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - generic [ref=e53]:
+            - heading "v1.0.0-beta.65-build.91" [level=3] [ref=e54]
+            - generic [ref=e55]: (Build 91)
+            - generic [ref=e56]: Beta 65-build
+            - generic [ref=e57]: 2026年4月2日
+          - generic [ref=e60]:
+            - heading "v1.0.0-beta.64-build.90" [level=3] [ref=e61]
+            - generic [ref=e62]: (Build 90)
+            - generic [ref=e63]: Beta 64-build
+            - generic [ref=e64]: 2026年4月2日
+    - paragraph [ref=e67]: © 2026 Matrindex. All rights reserved.
+  - alert [ref=e68]

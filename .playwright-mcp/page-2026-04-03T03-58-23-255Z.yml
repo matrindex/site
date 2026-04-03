@@ -1,0 +1,92 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - img "Matrindex" [ref=e6]
+      - heading "简单、高效的内网穿透工具" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Matrindex 让您轻松访问内网服务，支持多种代理类型以及高性能传输， 为不同场景下的需求提供丰富的解决方案。
+      - generic [ref=e9]:
+        - link "立即下载" [ref=e10] [cursor=pointer]:
+          - /url: "#download"
+          - img [ref=e11]
+          - text: 立即下载
+        - link "GitHub" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/matrindex/daemon-cli
+          - img [ref=e14]
+          - text: GitHub
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - img [ref=e21]
+        - heading "跨平台支持" [level=3] [ref=e23]
+        - paragraph [ref=e24]: 支持 macOS、Windows 和 Linux 系统，兼容 x64 和 ARM64 架构，覆盖主流开发环境。
+      - generic [ref=e25]:
+        - img [ref=e27]
+        - heading "高性能传输" [level=3] [ref=e29]
+        - paragraph [ref=e30]: 采用高性能网络协议，优化数据传输效率，确保低延迟、高吞吐量的稳定连接。
+      - generic [ref=e31]:
+        - img [ref=e33]
+        - heading "易于配置" [level=3] [ref=e36]
+        - paragraph [ref=e37]: 简洁的配置文件格式，支持多种代理类型，无需复杂设置即可快速启动服务。
+      - generic [ref=e38]:
+        - img [ref=e40]
+        - heading "安全可靠" [level=3] [ref=e42]
+        - paragraph [ref=e43]: 支持身份认证和加密传输，保障数据安全，保护您的内网服务免受未授权访问。
+      - generic [ref=e44]:
+        - img [ref=e46]
+        - heading "灵活部署" [level=3] [ref=e48]
+        - paragraph [ref=e49]: 支持多种部署方式，可作为后台服务运行，也可通过命令行快速启动，适应不同场景。
+      - generic [ref=e50]:
+        - img [ref=e52]
+        - heading "开源免费" [level=3] [ref=e54]
+        - paragraph [ref=e55]: 完全开源的项目，基于开源协议发布，您可以自由使用、修改和分发。
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - heading "下载" [level=2] [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e61]: v1.0.0-beta.66-build.94 (Build 94)
+          - text: ·2026年4月2日·Beta 66-build
+      - generic [ref=e63]:
+        - img [ref=e65]
+        - generic [ref=e67]:
+          - heading "开发版本 (Beta 66-build)" [level=4] [ref=e68]
+          - paragraph [ref=e69]: 当前版本正在开发中，服务可能不稳定。建议仅在测试环境使用。
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - heading "选择平台" [level=3] [ref=e72]
+          - navigation [ref=e73]:
+            - button "🍎 macOS 暂不可用" [disabled] [ref=e74]:
+              - generic [ref=e75]: 🍎
+              - generic [ref=e76]: macOS
+              - generic [ref=e77]: 暂不可用
+            - button "🪟 Windows" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: 🪟
+              - generic [ref=e80]: Windows
+            - button "🐧 Linux" [ref=e81] [cursor=pointer]:
+              - generic [ref=e82]: 🐧
+              - generic [ref=e83]: Linux
+        - generic [ref=e84]:
+          - heading "Linux 下载" [level=3] [ref=e85]
+          - generic [ref=e86]:
+            - link "amd64 95.47 MB matrindexd-linux-x64" [ref=e87] [cursor=pointer]:
+              - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-linux-x64
+              - img [ref=e89]
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]: amd64
+                  - generic [ref=e94]: 95.47 MB
+                - paragraph [ref=e95]: matrindexd-linux-x64
+              - img [ref=e97]
+            - link "arm64 94.94 MB matrindexd-linux-arm64" [ref=e99] [cursor=pointer]:
+              - /url: /api/download?version=1.0.0-beta.66-build.94&asset=matrindexd-linux-arm64
+              - img [ref=e101]
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: arm64
+                  - generic [ref=e106]: 94.94 MB
+                - paragraph [ref=e107]: matrindexd-linux-arm64
+              - img [ref=e109]
+    - link "查看所有版本" [ref=e113] [cursor=pointer]:
+      - /url: /versions
+      - text: 查看所有版本
+      - img [ref=e114]
+    - paragraph [ref=e118]: © 2026 Matrindex. All rights reserved.
+  - alert [ref=e119]
